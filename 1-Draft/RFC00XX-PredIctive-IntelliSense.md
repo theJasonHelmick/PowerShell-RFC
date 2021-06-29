@@ -122,7 +122,7 @@ predictions.
 By default, the feature Predictive IntelliSense is disabled. The impact of enabling this feature by
 default may cause new and existing users to become confused at the shell prompt. The feature is
 enabled and disabled with a PSReadLine command Set-PSReadLineOption that is executed at the shell
-prompt or in the user’s Profile.
+prompt or in the user's Profile.
 
 Predictive IntelliSense in PSReadLine 2.1.0-beta2 currently supports the following arguments for
 prediction source;
@@ -135,8 +135,7 @@ for prediction source;
 
 - None - This option disables Predictive IntelliSense
 - History - This option uses only the PSReadLine history for predictions
-- Plugin – This option uses only registered plugin modules for predictions
-- HistoryAndPlugin – This option uses both for predictions
+- HistoryAndPlugin - This option uses both for predictions
 
 To enable Predictive IntelliSense, enter the following command in the shell or in the users Profile:
 
